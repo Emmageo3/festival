@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #22323c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 961px) {
+    
+    header{
+        display: flex;
+        align-items: center;  
+    }
+    
+    .logomtm img{
+        height: 110px;
+        width: 110px;
+    }
+    .logofest{
+        margin-left: 23rem;
+    }
+    .logofest img{
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+    }
+    .menu{
+        margin-left: 25rem;
+        font-size: 1.5rem;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+    }
+    ul li a:hover {
+        background-color: #ff914d;
+        transition: 1s ease-in-out;
+    }
+    
+    .banner img{
+        height: 650px !important;
+        width: 100%;
+    }
+    
+    .boutons {
+        margin-top: 5rem;
+        text-align: center;
+    }
+    
+    .boutons a{
+        font-size: 20px;
+        text-decoration: none;
+        background-color: #ff914d;
+        color: black;
+        padding: 1.5rem;
+        margin: 10px;
+        border-radius: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    header{
+        display: flex;
+        align-items: center;  
+    }
+
+    .logomtm img{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .logofest{
+
+    }
+    .logofest img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .banner img{
+        height: 13rem !important;
+        width: 100%;
+    }
+    
+    .boutons {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .boutons a{
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: #ff914d;
+        color: black;
+        padding: 1rem;
+        margin: 10px;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+    header{
+        display: flex;
+        align-items: center;  
+    }
+
+    .logomtm img{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .logofest{
+
+    }
+    .logofest img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .banner img{
+        height: 13rem !important;
+        width: 100%;
+    }
+    
+    .boutons {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .boutons a{
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: #ff914d;
+        color: black;
+        padding: 1rem;
+        margin: 10px;
+        border-radius: 1rem;
+    }
+
+}
